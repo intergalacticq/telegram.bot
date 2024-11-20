@@ -6,7 +6,7 @@ import os
 from aiogram import Bot, Dispatcher, Router
 from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties  # Импорт DefaultBotProperties
-TOKEN = '7500251369:AAE_qWqgc8P1S2PKwdOr6YeX-THBQB0ZhGU'
+TOKEN = 'token'
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
 async def load_extensions():
